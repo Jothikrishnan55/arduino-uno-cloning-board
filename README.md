@@ -11,17 +11,29 @@ Components Used
 Component	Value / Part	Function
 
 U1	ATmega328P	Main microcontroller (runs the program)
+
 Y1	16MHz Crystal	Provides clock timing for the microcontroller
+
 C1, C2	22pF Ceramic Capacitors	Crystal load capacitors
+
 C3, C4	100nF Ceramic Capacitors	Decoupling capacitors (VCC / AVCC noise filtering)
+
 R1	10kΩ Resistor	Reset pull-up
+
 SW1	Push Button	Manual reset switch
+
 D1	LED	Power indicator
+
 R2	220Ω Resistor	LED current-limiting resistor
+
 U2	7805 Voltage Regulator	Converts 9–12V input to a stable 5V supply
+
 C5	10µF Electrolytic Capacitor	Regulator input filter capacitor
+
 C6	100nF Ceramic Capacitor	Regulator output filter capacitor
+
 J1	Barrel Jack	9–12V DC power input
+
 J2	2x3 Pin Header (ICSP)	Programming interface (MOSI, MISO, SCK, RESET, VCC, GND)
 
 How It Works
